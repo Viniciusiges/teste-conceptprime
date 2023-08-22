@@ -19,7 +19,7 @@ include_once 'includes/header.php';
 
 <div class="row">
     <div class="col s12 m10 push-m1">
-        <h3 class="light">Clientes</h3>
+        <h3 class="light">Registros</h3>
         <table class="striped centered highlight responsive-table">
             <thead>
                 <tr>
