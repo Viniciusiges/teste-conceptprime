@@ -15,7 +15,7 @@ include_once 'includes/header.php';
                 <label for="sobrenome">Sobrennome</label>
             </div>
             <div class="input-field col s12">
-                <input type="text" name="cep" id="cep" required>
+                <input type="text" name="cep" id="cep" required placeholder="Insira somente n° Ex: 01310930">
                 <label for="cep">CEP</label>
                 <button type="button" id="btn-cep" class="btn blue">Buscar</button>
 
