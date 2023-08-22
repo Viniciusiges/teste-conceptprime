@@ -1,7 +1,17 @@
 <?php
-//Message
-include_once 'includes/message.php';
-//conexão
+
+if(isset($_SESSION['mensagem'])) {
+    echo '<script>';
+    echo 'window.onload = function() {';
+    echo 'M.toast({html: \'' . $_SESSION['mensagem'] . '\'});';
+    echo '}';
+    echo '</script>';
+    
+    unset($_SESSION['mensagem']);
+}
+?>
+<?php
+
 include_once 'php_action/db_connect.php';
 //Header
 include_once 'includes/header.php';
