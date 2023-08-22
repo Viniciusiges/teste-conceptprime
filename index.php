@@ -1,10 +1,10 @@
 <?php
+//Message
+include_once 'includes/message.php';
 //conexão
 include_once 'php_action/db_connect.php';
 //Header
 include_once 'includes/header.php';
-//Message
-include_once 'includes/message.php';
 ?>
 
 <div class="row">
