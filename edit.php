@@ -75,7 +75,7 @@ if ($id) {
 <script>
     $("#btn-cep").on("click", function() {
         let numCep = $("#cep").val();
-        let url = "http://viacep.com.br/ws/" + numCep + "/json";
+        let url = "https://viacep.com.br/ws/" + numCep + "/json";
 
         $.ajax({
             url: url,
