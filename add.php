@@ -45,7 +45,7 @@ include_once 'includes/header.php';
                 <label for="complemento">Complemento</label>
             </div>
             <button type="submit" name="btn-cadastrar" class="btn">Cadastrar</button>
-            <a href="index.php" class="btn green">Lista de Clientes</a>
+            <a href="index.php" class="btn green">Lista de Registros</a>
         </form>
 
 
