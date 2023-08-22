@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 if(isset($_SESSION['mensagem'])) {
     echo '<script>';
     echo 'window.onload = function() {';
