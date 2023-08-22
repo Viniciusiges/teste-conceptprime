@@ -1,8 +1,8 @@
 <?php
-$servername = 'localhost';
-$db_name = 'concept';
+$servername = 'containers-us-west-159.railway.app';
+$db_name = 'railway';
 $username = 'postgres';
-$password = '101510';
+$password = 'JZWxg9tcFvi47YfgU3PZ';
 
 try{
     $connect = new PDO("pgsql:host=$servername;port=5432;dbname=$db_name", $username, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
