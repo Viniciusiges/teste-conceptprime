@@ -6,9 +6,6 @@ include_once 'includes/header.php';
 //Message
 include_once 'includes/message.php';
 ?>
-<?
-require("estilo.css");
-?>
 
 <div class="row">
     <div class="col s12 m10 push-m1">
