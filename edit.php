@@ -49,11 +49,11 @@ if ($id) {
             </div>
             <div class="input-field col s12">
                 <input type="text" name="logradouro" id="logradouro" required 
-                readonly value="<?php echo $usuario['logradouro']; ?>">
+                value="<?php echo $usuario['logradouro']; ?>">
                 <label for="logradouro">Logradouro</label>
             </div>
             <div class="input-field col s12">
-                <input type="text" name="bairro" id="bairro" required readonly value="<?php echo $usuario['bairro']; ?>">
+                <input type="text" name="bairro" id="bairro" required value="<?php echo $usuario['bairro']; ?>">
                 <label for="bairro">Bairro</label>
             </div>
             <div class="input-field col s12">
